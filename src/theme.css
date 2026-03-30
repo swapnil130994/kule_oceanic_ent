@@ -1,0 +1,13 @@
+:root {
+  --primary: #134e4a;        /* navbar + footer */
+  --primary-light: #0f766e;  /* mobile menu */
+  --secondary: #fef3c7;      /* section bg */
+  --card-bg: #fafaf9;        /* cards/forms */
+  --text-main: #1f2937;      /* main text */
+  --text-muted: #4b5563;     /* paragraph */
+  --text-light: #fffbeb;     /* white warm text */
+  --button: #065f46;         /* button */
+  --button-hover: #064e3b;   /* button hover */
+  --border: #d6d3d1;
+  --overlay: rgba(0, 0, 0, 0.6);
+}
