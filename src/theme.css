@@ -1,13 +1,21 @@
 :root {
-  --primary: #134e4a;        /* navbar + footer */
-  --primary-light: #0f766e;  /* mobile menu */
-  --secondary: #fef3c7;      /* section bg */
-  --card-bg: #fafaf9;        /* cards/forms */
-  --text-main: #1f2937;      /* main text */
-  --text-muted: #4b5563;     /* paragraph */
-  --text-light: #fffbeb;     /* white warm text */
-  --button: #065f46;         /* button */
-  --button-hover: #064e3b;   /* button hover */
-  --border: #d6d3d1;
-  --overlay: rgba(0, 0, 0, 0.6);
+  --primary: #0b3c5d;
+  --primary-light: #1d5f8a;
+  --secondary: #e6f2f8;
+  --card-bg: #f8fbfd;
+
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-light: #f1f5f9;
+
+  --button: #0a4d68;
+  --button-hover: #083d52;
+
+  --border: #cbd5e1;
+  --overlay: rgba(11, 60, 93, 0.7);
+
+  /* new reusable colors */
+  --icon-color: #0a6ed1;
+  --icon-bg: #ffffff;
+  --icon-border: #dbeafe;
 }

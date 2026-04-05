@@ -17,7 +17,7 @@ export default function Home() {
           style={{ color: "var(--text-light)" }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Welcome to KULEYAR OCEANIC
+            Welcome to KULEYAR OCEANIC ENTERPRISES PVT LTD
           </h1>
 
           <p className="text-lg md:text-2xl mb-6 leading-8">
@@ -31,12 +31,17 @@ export default function Home() {
           </p>
 
           <button
-            className="mt-8 px-8 py-3 rounded-xl font-semibold transition"
-            style={{
-              backgroundColor: "var(--button)",
-              color: "white",
-            }}
-          >
+            onClick={() =>
+                document.getElementById("services").scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="mt-8 px-8 py-3 rounded-xl font-semibold transition hover:opacity-90"
+              style={{
+                backgroundColor: "var(--button)",
+                color: "white",
+              }}
+            >
             Explore Our Services
           </button>
         </div>
